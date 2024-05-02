@@ -1,0 +1,15 @@
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'application'
+}
+/*repositories {
+    jcenter()
+}*/
+/*dependencies {
+    implementation("com.google.guava:guava:33.1.0-jre")
+}*/
+    // Use the application plugin to add support for building a CLI application in Java.
+application {
+    // Define the main class for the application.
+    mainClass = 'Dependency.Main'
+}
