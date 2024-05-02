@@ -13,7 +13,7 @@ public class ExceptionCustomizada_2 {
                     throw new DivisaoNaoExataException("Divisão não exata!", numerador[i], denominador[i]);
 
                 int resultado = numerador[i] / denominador[i];
-                System.out.println(resultado);
+                JOptionPane.showMessageDialog(null, "resultado: " + resultado);
             } catch (DivisaoNaoExataException | ArithmeticException | ArrayIndexOutOfBoundsException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, e.getMessage());

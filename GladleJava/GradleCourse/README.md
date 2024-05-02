@@ -1,4 +1,14 @@
-# DIO Gradle course
-This is the repository of Digital Innovation One Gradle course, that I am the teacher.
-You can follow this course for free here: https://www.dio.me/ 
+# Aplicações de Testes GRADLE Java, para aprimoramento de aprendizado.
+
+varias Aplicaçoes que foram gerados, compilados e gerencidados apartir do prompt, foco em POW, builds e suas configurações editaveis em XML.
+
+
+
+
+# Olá, eu sou o Umberto! 👋
+
+
+## Desenvolvido apartir de conhecimentos adquiridos em cursos, palestras e mentorias.
+
+Atualmente estou ampliando estes pequenos projetos, que ocorrerão a medida que o aprendizado evoluir.
 

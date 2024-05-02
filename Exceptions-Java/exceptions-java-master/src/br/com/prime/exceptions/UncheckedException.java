@@ -12,15 +12,15 @@ public class UncheckedException {
             String b = JOptionPane.showInputDialog("Denominador: ");
 
             try{
-                int resultado = dividir(Integer.parseInt(a), Integer.parseInt(b));
-                System.out.println("Resultado: " + resultado);
+                double resultado = dividir(Integer.parseInt(a), Integer.parseInt(b));
+                System.out.printf("Resultado: %s\n", resultado);
                 continueLooping = false;
+            } catch (ArithmeticException e) {
+                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Impossível dividir um número por 0." + e.getMessage());
             } catch (NumberFormatException e) {
                 e.printStackTrace();
                 JOptionPane.showMessageDialog(null, "Entrada inválida, informe um número inteiro! " + e.getMessage());
-            } catch (ArithmeticException e) {
-                e.printStackTrace();
-                JOptionPane.showMessageDialog(null, "Impossível dividir um número por 0.");
             }
             finally {
                 System.out.println("Chegou no finally!");
@@ -31,7 +31,7 @@ public class UncheckedException {
         System.out.println("O código continua...");
     }
 
-    public static int dividir(int a, int b) {
-        return a / b;
+    public static double dividir(int a, int b) {
+        return (double) a / b;
     }
 }
