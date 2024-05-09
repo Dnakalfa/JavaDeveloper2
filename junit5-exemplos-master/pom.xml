@@ -4,7 +4,7 @@
     <packaging>jar</packaging>
     <name>junit5-exemplos</name>
     <artifactId>junit5-exemplos</artifactId>
-    <groupId>one.digitalinnovation</groupId>
+    <groupId>prime</groupId>
     <version>1.0.0-SNAPSHOT</version>
 
     <description>Repositório com exemplos utilizando JUnit 5</description>
