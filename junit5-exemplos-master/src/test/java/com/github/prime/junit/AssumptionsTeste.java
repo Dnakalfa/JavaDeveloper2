@@ -22,7 +22,7 @@
     SOFTWARE.
  */
 
-package package com.github.prime.junit;
+package com.github.prime.junit;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;
