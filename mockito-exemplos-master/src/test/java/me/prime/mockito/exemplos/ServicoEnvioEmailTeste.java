@@ -18,7 +18,7 @@ public class ServicoEnvioEmailTeste {
     @InjectMocks
     private ServicoEnvioEmail servico;
 
-    @Captor
+    @Captor //captura argumentos passados para o mentodo simulado
     private ArgumentCaptor<Email> emailCaptor;
 
     @Test

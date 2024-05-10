@@ -14,7 +14,7 @@ import static org.mockito.Mockito.verify;
 @ExtendWith(MockitoExtension.class)
 public class EnviarMensagemTeste {
 
-    @Spy
+    @Spy //espiar o objeto, acompanhar seu comportamento
     EnviarMensagem enviarMensagem = new EnviarMensagem();
 
     @Test

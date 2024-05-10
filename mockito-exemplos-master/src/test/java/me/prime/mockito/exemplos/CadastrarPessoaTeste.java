@@ -20,10 +20,10 @@ import static org.mockito.Mockito.anyString;
 @ExtendWith(MockitoExtension.class)
 public class CadastrarPessoaTeste {
 
-    @Mock
+    @Mock   //"mocando" a Api, referenciando-a no codigo
     private ApiDosCorreios apiDosCorreios;
 
-    @InjectMocks
+    @InjectMocks //cria a instância e injeta dependencias necessarias anotadas com @Mock
     private CadastrarPessoa cadastrarPessoa;
 
     @Test

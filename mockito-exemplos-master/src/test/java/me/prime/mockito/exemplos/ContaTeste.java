@@ -29,7 +29,7 @@ public class ContaTeste {
 
     @Test
     void verificaAOrdemDasChamadas() {
-        InOrder inOrder = Mockito.inOrder(conta);
+        InOrder inOrder = Mockito.inOrder(conta);//criar um controlador de verificações em ordem de chamada
         conta.pagaBoleto(300);
         conta.debita(300);
         conta.enviaCreditoParaEmissor(300);
@@ -39,7 +39,7 @@ public class ContaTeste {
     }
 
     @Test
-    void validaQuantidadeDeVezesQueMétodoFoiChamado() {
+    void validaQuantidadeDeVezesQueMetodoFoiChamado() {
 
         conta.validaSaldo(100);
         conta.validaSaldo(100);
