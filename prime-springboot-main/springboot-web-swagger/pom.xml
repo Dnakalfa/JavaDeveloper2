@@ -8,10 +8,10 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dio</groupId>
-	<artifactId>springboot-web-swagger</artifactId>
+	<groupId>prime</groupId>
+	<artifactId>my.first.web.api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-web-swagger</name>
+	<name>my.first.web.api</name>
 	<description>Modelo de um web services baseado em REST com Swagger</description>
 	<properties>
 		<java.version>1.8</java.version>
